@@ -1,6 +1,6 @@
 #	Angkan Biswas
 #	02.05.2019
-#	Image show side by side
+# Display two images horizontally
 
 
 import cv2
@@ -12,4 +12,4 @@ negativeImg = 255 - positiveimg					                      # Make negative image
 img = numpy.concatenate((positiveimg,negativeImg), axis=1)		# Add tow image
 title = 'apple'							                                  # Add title
 cv2.imshow(title,img)						                              # Display image
-cv2.waitKey(0)                                                # Image show until any keys press
+cv2.waitKey(0)                                                # Show images until a key pressed
