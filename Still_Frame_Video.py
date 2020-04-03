@@ -1,5 +1,5 @@
 #	Angkan Biswas
-#	03.05.2019
+#	03.05.2020
 #	To make a video file from a squence of still file.
 
 import os
