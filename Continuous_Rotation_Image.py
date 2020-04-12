@@ -9,9 +9,9 @@ import numpy as np
 
 
 imgPath = '/home/dell/PythonCode/Picture/apple.jpg'		
-img = cv2.imread(imgPath)					# to load an image
+img = cv2.imread(imgPath)						# to load an image
 
-resizeImg = cv2.resize(img, (200,200))				# to resize the loaded image
+resizeImg = cv2.resize(img, (200,200))					# to resize the loaded image
 
 degree = 1
 for i in range(1000):
@@ -20,6 +20,6 @@ for i in range(1000):
 	concateImg = np.concatenate((resizeImg, rotateImg), axis = 1)	# to concatenate two images	
 
 	cv2.imshow('Picture', concateImg)				# to display concatenated images
-	cv2.waitKey(5)							# to hold the display window untill any key is pressed
+	cv2.waitKey(5)							# to hold the display window for 5 miliseconds
 
 	degree = degree + 5
