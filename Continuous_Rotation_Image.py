@@ -1,6 +1,6 @@
 # Angkan Bsiwas
 # 12.04.2020
-# To rotate an image
+# To rotate an image continuosly
 
 
 import cv2
