@@ -4,7 +4,6 @@
 
 
 import cv2
-from matplotlib import pyplot as plt
 import numpy as np
 
 imgDir = '/home/dell/PythonCode/Video/Mall_Data_Frames/'
@@ -12,8 +11,6 @@ print(imgDir)
 
 threshold = 127
 maxValue = 255
-
-plt.figure(figsize = (20,20))
 
 for i in range(1, 2001):
 	imgPath = imgDir + 'seq_00' +  str(i).zfill(4) + '.jpg'
